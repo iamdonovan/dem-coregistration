@@ -1,5 +1,11 @@
 # DEM co-registration tutorial
 
+This repository contains a jupyter-notebook tutorial demonstrating iterative co-registration of DEMs based on the co-registration algortihm described by [Nuth and Kääb (2011)](https://www.the-cryosphere.net/5/271/2011/tc-5-271-2011.html).
+
+It includes two DEMs from the Jotunheimen region of Norway, one a 25 m clip of Statens Kartverk's 10m DEM (available [here](https://hoydedata.no/LaserInnsyn/)), the other an ASTER DEM product provided by NASA (more information [here](https://lpdaac.usgs.gov/products/ast14demv003/)).
+
+To use the co-registration routine with your own data, you *could* modify the enclosed tutorial, but you may find it easier to use the scripts and functions provided by [pybob](https://pybob.readthedocs.io/en/stable/).
+
 ## 1. Cloning the repository
 
 To get started with the exercises, you'll need to create a `conda` environment containing the packages needed to run the co-registration functions in `python`, and __clone__ this repository to either your course folder on __lagringshotell__, or your M: drive, or your own personal computer. You can do this in one of two ways:
