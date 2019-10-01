@@ -1,3 +1,5 @@
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/iamdonovan/dem-coregistration/master)
+
 # DEM co-registration tutorial
 
 This repository contains a jupyter-notebook tutorial demonstrating iterative co-registration of DEMs based on the co-registration algortihm described by [Nuth and Kääb (2011)](https://www.the-cryosphere.net/5/271/2011/tc-5-271-2011.html).
