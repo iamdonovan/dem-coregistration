@@ -26,7 +26,7 @@ On your M: drive, create a folder called ".conda" and a folder in ".conda" calle
 
 ```
 C:\> cd path\to\repository
-C:\> conda env create --prefix M:\.conda\envs\geo4520 -f envrionment.yml
+C:\> conda env create --prefix M:\.conda\envs\geo4520 -f windows.yml
 ```
 
 making sure to replace path\to\repository with the actual path to the git repostory you cloned in Step 1.
@@ -38,7 +38,7 @@ This will probably take some time (so feel free to catch up on Facebook or whate
 If you haven't already, install [Anaconda](https://www.anaconda.com/distribution/). Open up __Anaconda Prompt__, then type the following command:
 
 ```
-C:\> conda env create --prefix geo4520 -f path\to\repository\environment.yml
+C:\> conda env create --prefix geo4520 -f path\to\repository\windows.yml
 ```
 
 making sure to replace path\to\repository\ with the actual path to the git repository you cloned in Step 1.
