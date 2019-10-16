@@ -22,10 +22,11 @@ Once you have the repository, you can create the `conda` environment using the _
 
 ### 2.1 On one of the lab computers
 
-On your M: drive, create a folder called ".conda" and a folder in ".conda" called "envs", if it does not already exist. Next, open up __Anaconda Prompt__, and type the following command:
+On your M: drive, create a folder called ".conda" and a folder in ".conda" called "envs", if it does not already exist. Next, open up __Anaconda Prompt__, and type the following commands:
 
 ```
-C:\> conda create --prefix M:\.conda\envs\geo4520 -f path\to\repository\environment.yml
+C:\> cd path\to\repository
+C:\> conda env create --prefix M:\.conda\envs\geo4520 -f envrionment.yml
 ```
 
 making sure to replace path\to\repository with the actual path to the git repostory you cloned in Step 1.
@@ -37,7 +38,7 @@ This will probably take some time (so feel free to catch up on Facebook or whate
 If you haven't already, install [Anaconda](https://www.anaconda.com/distribution/). Open up __Anaconda Prompt__, then type the following command:
 
 ```
-C:\> conda create --prefix geo4520 -f path\to\repository\environment.yml
+C:\> conda env create --prefix geo4520 -f path\to\repository\environment.yml
 ```
 
 making sure to replace path\to\repository\ with the actual path to the git repository you cloned in Step 1.
@@ -48,7 +49,7 @@ Once you have installed a conda environment, you can type `activate geo4520` at 
 If you haven't already, install [Anaconda](https://www.anaconda.com/distribution/). From the command line, type the following command:
 
 ```
-conda create --prefix geo4520 -f path/to/repository/environment.yml
+conda env create --prefix geo4520 -f path/to/repository/environment.yml
 ```
 
 making sure to replace path/to/repository/ with the actual path to the git repository you cloned in Step 1.
