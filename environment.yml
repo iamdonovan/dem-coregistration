@@ -3,7 +3,7 @@ channels:
   - conda-forge
   - nodefaults
 dependencies:
-  - python
+  - python=3.7
   - pip
   - descartes
   - fiona
@@ -18,7 +18,7 @@ dependencies:
   - pandas
   - pyproj
   - pyvips
-  - scikit-image
+  - scikit-image=0.15
   - scipy
   - shapely
   - sphinx-argparse
