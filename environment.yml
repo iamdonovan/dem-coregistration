@@ -8,7 +8,7 @@ dependencies:
   - gdal
   - geopandas
   - h5py
-  - llc
+  - jupyter
   - matplotlib
   - numba
   - numpy
