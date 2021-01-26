@@ -12,7 +12,7 @@ dependencies:
   - matplotlib
   - numba
   - numpy
-  - opencv-python
+  - opencv
   - pandas
   - pyproj
   - pyvips
