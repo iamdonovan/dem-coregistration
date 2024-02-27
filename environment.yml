@@ -1,9 +1,9 @@
-name: geo4520
+name: dem-coreg
 channels:
   - conda-forge
   - nodefaults
 dependencies:
-  - python=3.7
+  - python
   - pip
   - descartes
   - fiona
@@ -18,7 +18,7 @@ dependencies:
   - pandas
   - pyproj
   - pyvips
-  - scikit-image=0.15
+  - scikit-image>=0.19,<0.20.0
   - scipy
   - shapely
   - sphinx-argparse
